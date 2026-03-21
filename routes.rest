@@ -33,3 +33,43 @@ Content-Type: application/json
 
 ### Delete an author
 Delete http://localhost:3000/authors/69be00368030c3e945d62012
+
+
+### Get all books
+Get http://localhost:3000/books
+
+### Get book by ID
+Get http://localhost:3000/books/69be059652f8db24110f61bb
+
+### Create a new book
+Post http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "author": "New Author",
+  "publicationYear": 2021,
+  "genre": "Fiction",
+  "publisher": "New Publisher",
+  "language": "English",
+  "rating": 4.5,
+  "blurb": "This is a new book."
+}
+
+### Update an existing book
+Put http://localhost:3000/books/69be059652f8db24110f61bb
+Content-Type: application/json
+
+{
+  "title": "Updated Book",
+  "author": "Updated Author",
+  "publicationYear": 2020,
+  "genre": "Non-Fiction",
+  "publisher": "Updated Publisher",
+  "language": "English",
+  "rating": 4.0,
+  "blurb": "This is an updated book."
+}
+
+### Delete a book
+Delete http://localhost:3000/books/69be059652f8db24110f61bb

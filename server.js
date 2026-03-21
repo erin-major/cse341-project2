@@ -6,6 +6,7 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
 const port = process.env.PORT || 3000;
 const authorRoutes = require('./routes/authors');
+const bookRoutes = require('./routes/books');
 
 app.use(bodyParser.json());
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
@@ -17,6 +18,7 @@ app.use((req, res, next) => {
 });
 app.use('/', require('./routes'));
 app.use('/authors', authorRoutes);
+app.use('/books', bookRoutes);
 
 mongodb.initDb((err) => {
   if (err) {

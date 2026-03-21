@@ -1,2 +1,23 @@
-Wikipedia contributors. (n.d.). William Shakespeare. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/William_Shakespeare
+Dickens, C. (1859). A tale of two cities. Goodreads. Retrieved March 20, 2026, from https://www.goodreads.com/book/show/1953.A_Tale_of_Two_Cities
+
+Gaarder, J. (1991). Sophie’s world. Goodreads. Retrieved March 20, 2026, from https://www.goodreads.com/book/show/10959.Sophie_s_World
+
+Spyri, J. (1880). Heidi. Goodreads. Retrieved March 20, 2026, from https://www.goodreads.com/book/show/93.Heidi
+
+Wikipedia contributors. (n.d.). A tale of two cities. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/A_Tale_of_Two_Cities
+
 Wikipedia contributors. (n.d.). Agatha Christie. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Agatha_Christie
+
+Wikipedia contributors. (n.d.). Akira Toriyama. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Akira_Toriyama
+
+Wikipedia contributors. (n.d.). Brandon Sanderson. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Brandon_Sanderson
+
+Wikipedia contributors. (n.d.). Charlotte’s web. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Charlotte%27s_Web
+
+Wikipedia contributors. (n.d.). Heidi. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Heidi
+
+Wikipedia contributors. (n.d.). Sophie’s world. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/Sophie%27s_World
+
+Wikipedia contributors. (n.d.). William Shakespeare. In Wikipedia. Retrieved March 20, 2026, from https://en.wikipedia.org/wiki/William_Shakespeare
+
+White, E. B. (1952). Charlotte’s web. Goodreads. Retrieved March 20, 2026, from https://www.goodreads.com/book/show/24178.Charlotte_s_Web
