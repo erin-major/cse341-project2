@@ -7,7 +7,9 @@
   },
   "host": "cse341-project2-6689.onrender.com",
   "basePath": "/",
-  "schemes": ["https"],
+  "schemes": [
+    "https"
+  ],
   "paths": {
     "/": {
       "get": {
@@ -49,22 +51,34 @@
           {
             "name": "body",
             "in": "body",
+            "description": "Author data",
+            "required": true,
             "schema": {
               "type": "object",
               "properties": {
                 "firstName": {
+                  "type": "string",
                   "example": "any"
                 },
                 "lastName": {
+                  "type": "string",
                   "example": "any"
                 },
                 "birthYear": {
+                  "type": "number",
                   "example": 1900
                 },
                 "bio": {
+                  "type": "string",
                   "example": "any"
                 }
-              }
+              },
+              "required": [
+                "firstName",
+                "lastName",
+                "birthYear",
+                "bio"
+              ]
             }
           }
         ],
@@ -121,22 +135,34 @@
           {
             "name": "body",
             "in": "body",
+            "description": "Author data",
+            "required": true,
             "schema": {
               "type": "object",
               "properties": {
                 "firstName": {
+                  "type": "string",
                   "example": "any"
                 },
                 "lastName": {
+                  "type": "string",
                   "example": "any"
                 },
                 "birthYear": {
-                  "example": "any"
+                  "type": "number",
+                  "example": 1900
                 },
                 "bio": {
+                  "type": "string",
                   "example": "any"
                 }
-              }
+              },
+              "required": [
+                "firstName",
+                "lastName",
+                "birthYear",
+                "bio"
+              ]
             }
           }
         ],
@@ -202,34 +228,54 @@
           {
             "name": "body",
             "in": "body",
+            "description": "Book data",
+            "required": true,
             "schema": {
               "type": "object",
               "properties": {
                 "title": {
+                  "type": "string",
                   "example": "any"
                 },
                 "author": {
+                  "type": "string",
                   "example": "any"
                 },
                 "publicationYear": {
-                  "example": "any"
+                  "type": "number",
+                  "example": 1900
                 },
                 "genre": {
+                  "type": "string",
                   "example": "any"
                 },
                 "publisher": {
+                  "type": "string",
                   "example": "any"
                 },
                 "language": {
+                  "type": "string",
                   "example": "any"
                 },
                 "rating": {
-                  "example": "any"
+                  "type": "number",
+                  "example": 3.5
                 },
                 "blurb": {
+                  "type": "string",
                   "example": "any"
                 }
-              }
+              },
+              "required": [
+                "title",
+                "author",
+                "publicationYear",
+                "genre",
+                "publisher",
+                "language",
+                "rating",
+                "blurb"
+              ]
             }
           }
         ],
@@ -286,34 +332,54 @@
           {
             "name": "body",
             "in": "body",
+            "description": "Book data",
+            "required": true,
             "schema": {
               "type": "object",
               "properties": {
                 "title": {
+                  "type": "string",
                   "example": "any"
                 },
                 "author": {
+                  "type": "string",
                   "example": "any"
                 },
                 "publicationYear": {
-                  "example": "any"
+                  "type": "number",
+                  "example": 1900
                 },
                 "genre": {
+                  "type": "string",
                   "example": "any"
                 },
                 "publisher": {
+                  "type": "string",
                   "example": "any"
                 },
                 "language": {
+                  "type": "string",
                   "example": "any"
                 },
                 "rating": {
-                  "example": "any"
+                  "type": "number",
+                  "example": 3.5
                 },
                 "blurb": {
+                  "type": "string",
                   "example": "any"
                 }
-              }
+              },
+              "required": [
+                "title",
+                "author",
+                "publicationYear",
+                "genre",
+                "publisher",
+                "language",
+                "rating",
+                "blurb"
+              ]
             }
           }
         ],

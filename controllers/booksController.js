@@ -37,16 +37,22 @@ async function createBook(req, res) {
   // #swagger.summary = 'Create a new book'
   // #swagger.description = 'Endpoint to create a new book in the database.'
   // #swagger.tags = ['Books']
-  // #swagger.example = {
-  //   "title": "any",
-  //   "author": "any",
-  //   "publicationYear": 1900,
-  //   "genre": "any",
-  //   "publisher": "any",
-  //   "language": "any",
-  //   "rating": 3.5,
-  //   "blurb": "any"
-  // }
+  /*  #swagger.parameters['body'] = {
+        in: 'body',
+        description: 'Book data',
+        required: true,
+        schema: {
+          $title: 'any',
+          $author: 'any',
+          $publicationYear: 1900,
+          $genre: 'any',
+          $publisher: 'any',
+          $language: 'any',
+          $rating: 3.5,
+          $blurb: 'any'
+        }
+      }
+  */
   const book = {
     title: req.body.title,
     author: req.body.author,
@@ -72,16 +78,22 @@ async function updateBook(req, res) {
   // #swagger.summary = 'Update a book by ID'
   // #swagger.description = 'Endpoint to update an existing book by its ID.'
   // #swagger.tags = ['Books']
-  // #swagger.example = {
-  //   "title": "any",
-  //   "author": "any",
-  //   "publicationYear": 1900,
-  //   "genre": "any",
-  //   "publisher": "any",
-  //   "language": "any",
-  //   "rating": 3.5,
-  //   "blurb": "any"
-  // }
+  /*  #swagger.parameters['body'] = {
+        in: 'body',
+        description: 'Book data',
+        required: true,
+        schema: {
+          $title: 'any',
+          $author: 'any',
+          $publicationYear: 1900,
+          $genre: 'any',
+          $publisher: 'any',
+          $language: 'any',
+          $rating: 3.5,
+          $blurb: 'any'
+        }
+      }
+  */
   const bookId = new ObjectId(req.params.id);
   const book = {
     title: req.body.title,
