@@ -73,3 +73,79 @@ Content-Type: application/json
 
 ### Delete a book
 Delete http://localhost:3000/books/69be0f2f1ad711ef2236f487
+
+
+// RENDER
+
+### Get welcome message
+Get https://cse341-project2-6689.onrender.com/
+
+### Get all authors
+Get https://cse341-project2-6689.onrender.com/authors
+
+### Get author by ID
+Get https://cse341-project2-6689.onrender.com/authors/69be16646057f08770582092
+
+### Create a new author
+Post https://cse341-project2-6689.onrender.com/authors
+Content-Type: application/json
+
+{
+  "firstName": "New",
+  "lastName": "Author",
+  "birthYear": 1990,
+  "bio": "This is a new author."
+}
+
+### Update an existing author
+Put https://cse341-project2-6689.onrender.com/authors/69be16646057f08770582092
+Content-Type: application/json
+
+{
+  "firstName": "Updated",
+  "lastName": "Author",
+  "birthYear": 1985,
+  "bio": "This is an updated author."
+}
+
+### Delete an author
+Delete https://cse341-project2-6689.onrender.com/authors/69be16646057f08770582092
+
+### Get all books
+Get https://cse341-project2-6689.onrender.com/books
+
+### Get book by ID
+Get https://cse341-project2-6689.onrender.com/books/69be16b46057f08770582093
+
+### Create a new book
+Post https://cse341-project2-6689.onrender.com/books
+Content-Type: application/json
+
+{
+  "title": "New Book",
+  "author": "New Author",
+  "publicationYear": 2021,
+  "genre": "Fiction",
+  "publisher": "New Publisher",
+  "language": "English",
+  "rating": 4.5,
+  "blurb": "This is a new book."
+}
+
+### Update an existing book
+Put https://cse341-project2-6689.onrender.com/books/69be16b46057f08770582093
+Content-Type: application/json
+
+{
+  "title": "Updated Book",
+  "author": "Updated Author",
+  "publicationYear": 2020,
+  "genre": "Non-Fiction",
+  "publisher": "Updated Publisher",
+  "language": "English",
+  "rating": 4.0,
+  "blurb": "This is an updated book."
+}
+
+### Delete a book
+Delete https://cse341-project2-6689.onrender.com/books/69be16b46057f08770582093
