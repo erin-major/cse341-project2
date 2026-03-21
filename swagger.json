@@ -5,11 +5,9 @@
     "description": "APIs for managing books and authors",
     "version": "1.0.0"
   },
-  "host": "https://cse341-project2-6689.onrender.com",
+  "host": "cse341-project2-6689.onrender.com",
   "basePath": "/",
-  "schemes": [
-    "https"
-  ],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
