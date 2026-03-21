@@ -7,7 +7,7 @@ Get http://localhost:3000/
 Get http://localhost:3000/authors
 
 ### Get author by ID
-Get http://localhost:3000/authors/69be00368030c3e945d62012
+Get http://localhost:3000/authors/69be0e9b1ad711ef2236f486
 
 ### Create a new author
 Post http://localhost:3000/authors
@@ -21,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Update an existing author
-Put http://localhost:3000/authors/69be00368030c3e945d62012
+Put http://localhost:3000/authors/69be0e9b1ad711ef2236f486
 Content-Type: application/json
 
 {
@@ -32,14 +32,14 @@ Content-Type: application/json
 }
 
 ### Delete an author
-Delete http://localhost:3000/authors/69be00368030c3e945d62012
+Delete http://localhost:3000/authors/69be0e9b1ad711ef2236f486
 
 
 ### Get all books
 Get http://localhost:3000/books
 
 ### Get book by ID
-Get http://localhost:3000/books/69be059652f8db24110f61bb
+Get http://localhost:3000/books/69be0f2f1ad711ef2236f487
 
 ### Create a new book
 Post http://localhost:3000/books
@@ -57,7 +57,7 @@ Content-Type: application/json
 }
 
 ### Update an existing book
-Put http://localhost:3000/books/69be059652f8db24110f61bb
+Put http://localhost:3000/books/69be0f2f1ad711ef2236f487
 Content-Type: application/json
 
 {
@@ -72,4 +72,4 @@ Content-Type: application/json
 }
 
 ### Delete a book
-Delete http://localhost:3000/books/69be059652f8db24110f61bb
+Delete http://localhost:3000/books/69be0f2f1ad711ef2236f487
