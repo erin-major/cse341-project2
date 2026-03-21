@@ -1,0 +1,35 @@
+// LOCALHOST
+
+### Get welcome message
+Get http://localhost:3000/
+
+### Get all authors
+Get http://localhost:3000/authors
+
+### Get author by ID
+Get http://localhost:3000/authors/69be00368030c3e945d62012
+
+### Create a new author
+Post http://localhost:3000/authors
+Content-Type: application/json
+
+{
+  "firstName": "New",
+  "lastName": "Author",
+  "birthYear": 1990,
+  "bio": "This is a new author."
+}
+
+### Update an existing author
+Put http://localhost:3000/authors/69be00368030c3e945d62012
+Content-Type: application/json
+
+{
+  "firstName": "Updated",
+  "lastName": "Author",
+  "birthYear": 1985,
+  "bio": "This is an updated author."
+}
+
+### Delete an author
+Delete http://localhost:3000/authors/69be00368030c3e945d62012
