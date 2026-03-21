@@ -59,7 +59,7 @@
                   "example": "any"
                 },
                 "birthYear": {
-                  "example": "any"
+                  "example": 1900
                 },
                 "bio": {
                   "example": "any"

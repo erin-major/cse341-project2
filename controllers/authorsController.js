@@ -37,6 +37,12 @@ async function createAuthor(req, res) {
   // #swagger.summary = 'Create a new author'
   // #swagger.description = 'Endpoint to create a new author in the database.'
   // #swagger.tags = ['Authors']
+  // #swagger.example = {
+  //   "firstName": "any",
+  //   "lastName": "any",
+  //   "birthYear": 1900,
+  //   "bio": "any"
+  // }
   const author = {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
@@ -58,6 +64,12 @@ async function updateAuthor(req, res) {
   // #swagger.summary = 'Update an author by ID'
   // #swagger.description = 'Endpoint to update an existing author by its ID.'
   // #swagger.tags = ['Authors']
+  // #swagger.example = {
+  //   "firstName": "any",
+  //   "lastName": "any",
+  //   "birthYear": 1900,
+  //   "bio": "any"
+  // }
   const authorId = new ObjectId(req.params.id);
   const author = {
     firstName: req.body.firstName,
