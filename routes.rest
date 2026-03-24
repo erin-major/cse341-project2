@@ -3,11 +3,14 @@
 ### Get welcome message
 Get http://localhost:3000/
 
+### Bad route for error testing
+Get http://localhost:3000/bad-test
+
 ### Get all authors
 Get http://localhost:3000/authors
 
 ### Get author by ID
-Get http://localhost:3000/authors/69be0e9b1ad711ef2236f486
+Get http://localhost:3000/authors/69bdfa0eecd3a5bebc04683
 
 ### Create a new author
 Post http://localhost:3000/authors
