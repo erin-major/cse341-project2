@@ -121,11 +121,13 @@ async function updateAuthor(req, res, next) {
           }
         }
       );
-    if (result.matchedCount === 0) {
-      next(createError(404, 'Author not found'));
-    } else {
-      res.status(200).send();
+    if (!result.acknowledged) {
+      return next(createError(500, 'An error occurred while updating the author.'));
     }
+    if (result.matchedCount === 0) {
+      return next(createError(404, 'Author not found'));
+    }
+    res.status(200).send();
   } catch (error) {
     next(error);
   }
@@ -141,11 +143,13 @@ async function deleteAuthor(req, res, next) {
   try {
     const authorId = new ObjectId(req.params.id);
     const result = await mongodb.getDb().db().collection('authors').deleteOne({ _id: authorId });
-    if (result.deletedCount === 1) {
-      res.status(204).send();
-    } else {
-      res.status(500).json(result.error || 'An error occurred while deleting the author.');
+    if (!result.acknowledged) {
+      return next(createError(500, 'An error occurred while deleting the author.'));
     }
+    if (result.deletedCount === 0) {
+      return next(createError(404, 'Author not found'));
+    }
+    res.status(204).send();
   } catch (error) {
     next(error);
   }
